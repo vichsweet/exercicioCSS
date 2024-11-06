@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fluid de 2 Colunas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .coluna {
+            flex: 1;
+            padding: 20px;
+        }
+        .coluna1 {
+            background-color: #66997b;
+        }
+        .coluna2 {
+            background-color: #a4ca8b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="coluna coluna1">
+            <h2>Coluna 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat delectus dignissimos repudiandae commodi qui et cumque, ea incidunt illo iusto? Ad illo animi esse eius, doloremque delectus soluta placeat.</p>
+        </div>
+        <div class="coluna coluna2">
+            <h2>Coluna 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus doloremque ducimus saepe impedit earum nemo, voluptatibus consequuntur aliquam pariatur, aliquid quos quam veniam! Debitis expedita commodi accusamus laudantium aspernatur dicta.</p>
+        </div>
+    </div>
+</body>
+</html>
